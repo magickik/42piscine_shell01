@@ -1,1 +1,1 @@
-ls -l | tr "\n" " "
+ls -l | sed -n "n;p"
