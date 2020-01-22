@@ -1,1 +1,1 @@
-ifconfig | grep "ether" | cut -d " " -f 2
+ifconfig | grep "\tether" | cut -d " " -f 2
